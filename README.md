@@ -1,23 +1,23 @@
-# 🔍 Insight-Gazer
+# Insight-Gazer
 
 **AI-powered product insight engine built with Gemini** — auto-detects key features, sentiment trends, and customer priorities from raw reviews.  
 Insight-Gazer turns noisy user feedback into structured summaries so you can instantly understand what matters most to your customers.
 
-## ✨ Features
+## Features
 
-- ⚡ Uses **Gemini AI** to analyze product reviews
-- 📊 Automatically detects **key features** and their **positive/negative sentiments**
-- ❤️ Highlights what customers **love** (and hate)
-- 📁 Accepts **CSV upload** of raw reviews
-- 🧠 Returns structured insights in JSON format
-- 💻 Built with **React + TypeScript + Vite** for frontend and **Node.js (Vercel Function)** for backend
+- Uses **Gemini AI** to analyze product reviews
+- Automatically detects **key features** and their **positive/negative sentiments**
+- Highlights what customers **love** (and hate)
+- Accepts **CSV upload** of raw reviews
+- Returns structured insights in JSON format
+- Built with **React + TypeScript + Vite** for frontend and **Node.js (Vercel Function)** for backend
 
-## 🚀 Demo
+## Demo
 
 Check out the live version here:  
-👉 [https://insight-gazer.vercel.app](https://insight-gazer.vercel.app)
+[https://insight-gazer.vercel.app](https://insight-gazer.vercel.app)
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 product-feature-gazer-72/
@@ -33,14 +33,14 @@ product-feature-gazer-72/
 └── tsconfig.json
 ```
 
-## 🧪 How It Works
+## How It Works
 
 1. User uploads a CSV file of product reviews.
 2. The app sends a cleaned subset to the Gemini API.
 3. Gemini responds with structured insight — category, features, sentiments, highlights.
 4. Insight-Gazer displays it in an interactive UI.
 
-## 🔐 Environment Variables
+## Environment Variables
 
 In `.env` (not committed to GitHub), you must define:
 GEMINI_API_KEY=your-gemini-api-key-here
@@ -49,13 +49,13 @@ GEMINI_API_KEY=your-gemini-api-key-here
 On Vercel:
 - Go to **Settings > Environment Variables** and set `GEMINI_API_KEY`
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend**: React + TypeScript + TailwindCSS + Vite
 - **Backend**: Serverless Function via Vercel
 - **AI**: Google Gemini (generative language model)
 
-## 🧾 Example Prompt Sent to Gemini
+## Example Prompt Sent to Gemini
 
 ```json
 {
@@ -67,9 +67,9 @@ On Vercel:
 }
 ```
 
-## 📦 Setup (For Local Development)
+## Setup (For Local Development)
 
-⚠️ To test the backend locally, you'd need to replicate the serverless function using Express. In production, the backend is auto-deployed via Vercel.
+To test the backend locally, you'd need to replicate the serverless function using Express. In production, the backend is auto-deployed via Vercel.
 
 ### Clone repo
 ```bash
@@ -87,17 +87,9 @@ npm install
 npm run dev
 ```
 
-## ⚠️ Known Limitations
+## Known Limitations
 Gemini output may occasionally include malformed JSON (partially handled)
 
 Rate-limited by Gemini API usage quota
 
 Currently supports only English-language reviews
-
-## 📄 License
-MIT License
-
----
-
-Let me know if you'd like me to include a **screenshots section**, badges, or split this into multiple sections for Vercel/Vite/etc.
-
