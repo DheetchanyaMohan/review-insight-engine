@@ -1,6 +1,6 @@
 # Review Insight Engine
 
-**AI-powered product insight engine built with Gemini** — auto-detects key features, sentiment trends, and customer priorities from raw reviews.  
+**AI-powered product insight engine built with Gemini** - auto-detects key features, sentiment trends, and customer priorities from raw reviews.  
 This Review Insight Engine turns noisy user feedback into structured summaries so you can instantly understand what matters most to your customers.
 
 ## Features
@@ -37,7 +37,7 @@ product-feature-gazer-72/
 
 1. User uploads a CSV file of product reviews.
 2. The app sends a cleaned subset to the Gemini API.
-3. Gemini responds with structured insight — category, features, sentiments, highlights.
+3. Gemini responds with structured insight - category, features, sentiments, highlights.
 4. Insight-Gazer displays it in an interactive UI.
 
 ## Environment Variables
