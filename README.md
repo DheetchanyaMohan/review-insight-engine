@@ -1,7 +1,7 @@
-# Insight-Gazer
+# Review Insight Engine
 
 **AI-powered product insight engine built with Gemini** — auto-detects key features, sentiment trends, and customer priorities from raw reviews.  
-Insight-Gazer turns noisy user feedback into structured summaries so you can instantly understand what matters most to your customers.
+This Review Insight Engine turns noisy user feedback into structured summaries so you can instantly understand what matters most to your customers.
 
 ## Features
 
